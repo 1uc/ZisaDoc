@@ -1,11 +1,11 @@
-# ZisaGeneric
-ZisaGeneric is provides multidimensional arrays and array views. Along with the
+# ZisaMemory
+ZisaMemory is provides multidimensional arrays and array views. Along with the
 code required to write arrays to HDF5 or NetCDF files.
 
 ## Quickstart
 Start by cloning the repository
 
-    $ git clone https://github.com/1uc/ZisaGeneric.git
+    $ git clone https://github.com/1uc/ZisaMemory.git
 
 and change into the newly created directory. Then proceed to install the
 dependencies:
