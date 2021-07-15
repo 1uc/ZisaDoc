@@ -1,4 +1,4 @@
-# ZisaMemory
+# ZisaMemory                                                         {#mainpage}
 ZisaMemory is provides multidimensional arrays and array views. Along with the
 code required to write arrays to HDF5 or NetCDF files.
 
