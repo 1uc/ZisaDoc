@@ -1,6 +1,6 @@
 @INCLUDE = Doxyfile.default
 
-PROJECT_NAME           = "ZisaGeneric"
+PROJECT_NAME           = "ZisaCore"
 EXTRACT_ALL            = YES
 INPUT                  = mainpage.md dependencies.md cmake.md conan.md contributing.md ../src ../include
 RECURSIVE              = YES

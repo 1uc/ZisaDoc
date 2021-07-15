@@ -6,9 +6,7 @@ automated in a script.
 
 To install the dependencies use
 
-    $ bin/install_dir.sh COMPILER DIRECTORY       \
-                         [--zisa_has_mpi={0,1}]   \
-                         [--zisa_has_cuda={0,1}]
+    $ bin/install_dir.sh COMPILER DIRECTORY
 
 which will install the dependencies into a subfolder of `DIRECTORY` and print
 part of the CMake command needed to include the dependencies. `COMPILER` must
