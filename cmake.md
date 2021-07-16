@@ -42,8 +42,8 @@ it.
 
 ## Project specific flags                                         {#cmake_flags}
 The script for installing the dependencies generates part of the CMake command
-required for compiling Zisa. You'll need to add flags to control which
-dependencies should be used:
+required for compiling Zisa. The flags to control which dependencies should be
+used are:
 
   * `-DZISA_HAS_CUDA={0,1}` for CUDA.
   * `-DZISA_HAS_HDF5={0,1}` for HDF5 I/O.
