@@ -34,7 +34,7 @@
       <tab type="globals" visible="yes" title="" intro=""/>
     </tab>
     <tab type="examples" visible="yes" title="" intro=""/>  
-    <tab type="user" visible="yes" url='https://github.com/1uc/ZisaGeneric' title="Github Page" intro=""/>
+    <tab type="user" visible="yes" url='https://github.com/1uc/ZisaFVM' title="Github Page" intro=""/>
   </navindex>
 
   <!-- Layout definition for a class page -->

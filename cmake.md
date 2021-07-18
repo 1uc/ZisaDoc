@@ -45,9 +45,12 @@ The script for installing the dependencies generates part of the CMake command
 required for compiling Zisa. You'll need to add flags to control which
 dependencies should be used:
 
-  * `-DZISA_HAS_CUDA={0,1}` for CUDA.
-  * `-DZISA_HAS_HDF5={0,1}` for HDF5 I/O.
-  * `-DZISA_HAS_NETCDF={0,1}` for NetCDF I/O.
+  * `-DZISA_HAS_METIS={0,1}` for domain decomposition using Metis.
+  * `-DZISA_HAS_OPENMP={0,1}` to enable OpenMp.
+  * `-DZISA_HAS_OPENGL={0,1}` for crude insitu visualization with OpenGL.
+  * `-DZISA_HAS_HELMHOLTZ_EOS={0,1}` for the Helmholtz EoS.
+
+All are optional and off by default.
 
 Further, you should choose a build type:
 
