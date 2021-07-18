@@ -8,4 +8,8 @@ interest to anyone.
 ## Quickstart
 Start by heading over to one of the more interesting libraries
 
-   * [ZisaMemory](https://1uc.github.io/ZisaMemory)
+   * [ZisaMemory](https://github.com/1uc/ZisaMemory)
+   * [ZisaMPI](https://github.com/1uc/ZisaMPI)
+   * [ZisaTimeStepping](https://github.com/1uc/ZisaTimeStepping)
+   * [ZisaSFC](https://github.com/1uc/ZisaSFC)
+   * [ZisaFVM](https://github.com/1uc/ZisaFVM)
