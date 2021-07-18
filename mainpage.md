@@ -1,7 +1,4 @@
 # ZisaMemory                                                         {#mainpage}
-[![Build Status](https://github.com/1uc/ZisaMPI/actions/workflows/basic_integrity_checks.yml/badge.svg)](https://github.com/1uc/ZisaMPI/actions)
-[![Docs Status](https://github.com/1uc/ZisaMPI/actions/workflows/publish_docs.yml/badge.svg)](https://1uc.github.io/ZisaMPI)
-
 ZisaMPI provides a thin and incomplete wrapper around MPI, enabling sending
 arrays from one MPI task to another with less code.
 
