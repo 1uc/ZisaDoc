@@ -1,4 +1,4 @@
-# ZisaMemory
+# ZisaMemory                                                         {#mainpage}
 [![Build Status](https://github.com/1uc/ZisaMPI/actions/workflows/basic_integrity_checks.yml/badge.svg)](https://github.com/1uc/ZisaMPI/actions)
 [![Docs Status](https://github.com/1uc/ZisaMPI/actions/workflows/publish_docs.yml/badge.svg)](https://1uc.github.io/ZisaMPI)
 
@@ -23,6 +23,7 @@ are
   * `--zisa_has_cuda={0,1}` to request CUDA.
   * `--zisa_has_hdf5={0,1}` to request HDF5 support for arrays.
   * `--zisa_has_netcdf={0,1}` to request NetCDF support for arrays.
+  * `--zisa_has_mpi={0,1}` which defaults to `1`.
 
 If this worked continue by running the `cmake` command and compiling the
 library. Take a look at the [project specific flags] for CMake if you want to
