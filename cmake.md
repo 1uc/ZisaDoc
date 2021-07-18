@@ -45,9 +45,7 @@ The script for installing the dependencies generates part of the CMake command
 required for compiling Zisa. You'll need to add flags to control which
 dependencies should be used:
 
-  * `-DZISA_HAS_CUDA={0,1}` for CUDA.
-  * `-DZISA_HAS_HDF5={0,1}` for HDF5 I/O.
-  * `-DZISA_HAS_NETCDF={0,1}` for NetCDF I/O.
+  * `-DZISA_HAS_CUDA={0,1}` for CUDA (experimental).
 
 Further, you should choose a build type:
 
