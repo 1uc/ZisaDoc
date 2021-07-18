@@ -6,6 +6,6 @@ decorations (`__device__` and friends). In and of itself it is of little
 interest to anyone.
 
 ## Quickstart
-Start by heading over to one of the more interesing libraries
+Start by heading over to one of the more interesting libraries
 
    * [ZisaMemory](https://1uc.github.io/ZisaMemory)
