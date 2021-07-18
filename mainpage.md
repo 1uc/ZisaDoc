@@ -1,11 +1,16 @@
-# ZisaGeneric
-ZisaGeneric is provides multidimensional arrays and array views. Along with the
-code required to write arrays to HDF5 or NetCDF files.
+# ZisaTimeStepping                                                   {#mainpage}
+ZisaTimeStepping is provides funcionality related to time stepping. In HPC
+applications often the problem is solved by taking small steps forward in time.
+This library provides a progress bar and a `TimeKeeper` which keeps track of
+the current simulation time, as well as classes to decide when the simulation
+should be written to file or (eventually) stopped.
+
+Note: This library does implement any ODE solvers.
 
 ## Quickstart
 Start by cloning the repository
 
-    $ git clone https://github.com/1uc/ZisaGeneric.git
+    $ git clone https://github.com/1uc/ZisaTimeStepping.git
 
 and change into the newly created directory. Then proceed to install the
 dependencies:
