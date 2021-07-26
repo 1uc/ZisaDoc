@@ -1,5 +1,5 @@
 # Dependencies
-## Automated dependencies
+## Automated dependencies                              {#automated_dependencies}
 Naturally, while it can be useful to be able to install each of the
 dependencies manually, e.g., on a pesky cluster, for the most part this can be
 automated in a script.
