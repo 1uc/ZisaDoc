@@ -1,4 +1,4 @@
-# Zisa
+# Zisa                                                               {#mainpage}                                        
 This repository contains the combined source code of Zisa. If you like to use
 and IDE to navigate all of Zisa rather than just one library at a time, please
 use this repository.
