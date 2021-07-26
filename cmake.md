@@ -1,4 +1,4 @@
-# CMake
+# CMake Usage                                                     {#cmake_usage}
 Here we briefly describe features of CMake directly relevant to Zisa.
 
 ## CMake Primer
@@ -105,7 +105,7 @@ through
 ```
 add_library(Zisa::memory ALIAS memory)
 ```
-This creats the symmetry required to incorporate Zisa libraries either directly
+This creates the symmetry required to incorporate Zisa libraries either directly
 via `add_subdirectory` or as an external dependency via `find_package`.
 
 ## Packaging with CMake
