@@ -2,7 +2,7 @@
 
 PROJECT_NAME           = "ZisaGeneric"
 EXTRACT_ALL            = YES
-INPUT                  = mainpage.md dependencies.md cmake.md conan.md contributing.md ../src ../include
+INPUT                  = mainpage.md dependencies.md cmake.md conan.md superbuild.md contributing.md ../src ../include
 RECURSIVE              = YES
 HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
 
