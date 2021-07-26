@@ -2,7 +2,10 @@
 
 PROJECT_NAME           = "ZisaFVM"
 EXTRACT_ALL            = YES
-INPUT                  = mainpage.md dependencies.md cmake.md conan.md contributing.md ../src ../include
+INPUT                  = mainpage.md dependencies.md building.md conan.md \
+                         cmake.md superbuild.md contributing.md \
+                         ../src ../include
+
 RECURSIVE              = YES
 HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
 
