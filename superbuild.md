@@ -1,4 +1,4 @@
-# Superbuilds with Zisa
+# Superbuilds                                                     {#superbuilds}
 Zisa is organized in separate libraries. The code of each of these lives in a
 separate git repository. This is different from the organization style where
 the whole application is located in a single repository. In particular when it
