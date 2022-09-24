@@ -6,9 +6,7 @@ automated in a script.
 
 To install the dependencies use
 
-    $ bin/install_dir.sh COMPILER DIRECTORY       \
-                         [--zisa_has_mpi={0,1}]   \
-                         [--zisa_has_cuda={0,1}]
+    $ bin/install_dir.sh COMPILER DIRECTORY
 
 which will install the dependencies into a subfolder of `DIRECTORY` and print
 part of the CMake command needed to include the dependencies. `COMPILER` must
@@ -19,7 +17,7 @@ If this worked continue by adding [project specific flags]
 [project specific flags]: @ref cmake_flags
 
 ## Overview of dependencies
-Zisa uses modern CMake to manage any dependencies it has. We've devided them
+Zisa uses modern CMake to manage any dependencies it has. We've divided them
 into four categories: *system dependencies* which are hard to install, low
 level libraries; *common dependencies* these are properly packaged libraries;
 *internal dependencies* meaning other parts of Zisa; and finally *scientific
@@ -30,7 +28,7 @@ be nicely packaged and might not be open-source.
 We simply assume that these are present on the system. On a personal computer
 these are intalled using the package manager or something similar.
 
-Examples are:
+ZisaSFC has no system dependencies. Examples would be:
   * CUDA
   * MPI
   * HDF5

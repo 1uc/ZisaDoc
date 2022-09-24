@@ -5,13 +5,10 @@ familiar, please read [CMake Usage].
 
 ## Project specific flags                                         {#cmake_flags}
 The script for installing the dependencies generates part of the CMake command
-required for compiling Zisa, see [Automated Dependencies]. You'll need to add
-flags to control which dependencies should be used:
+required for compiling Zisa, see [Automated Dependencies]. This part of Zisa is independent of all other parts of Zisa
+and therefore doesn't need any special flags for CUDA (not supported) or MPI.
 
-  * `-DZISA_HAS_MPI={0,1}` for MPI.
-  * `-DZISA_HAS_CUDA={0,1}` for CUDA (experimental). Please report or fix issues.
-
-Further, you should choose a build type:
+You should choose a build type:
 
   * `Debug` the CMake built in, essentially just `-g`.
   * `FastDebug` optimized build with debug symbols and assertions.
