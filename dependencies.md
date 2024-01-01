@@ -26,7 +26,7 @@ be nicely packaged and might not be open-source.
 
 ### System dependencies
 We simply assume that these are present on the system. On a personal computer
-these are intalled using the package manager or something similar.
+these are installed using the package manager or something similar.
 
 Examples are:
   * CUDA
@@ -36,21 +36,12 @@ Examples are:
 
 
 ### Common dependencies
-Since these are nicely packaged C++ libraries, we can use Conan to install
-them. Conan can be installed using `pip`, e.g.,
+Since these are nicely packaged C++ libraries, we could use Spack to install
+them. Create a Spack environment and add the required libraries.
 
-    pip install --user conan
+Please refer to [Spack Details] for further details on how we use Spack.
 
-Remember that you might need to add a folder to your `PATH`. There is a
-`conanfile.txt` which lists the libraries that need to be installed.
-
-**Note:** If you're new to Conan and it's using the correct compiler, please read
-up on profiles. Which is how you can tell Conan the details required to pick an
-ABI compatible binary.
-
-Please refer to [Conan Details] for further details on how we use Conan.
-
-[Conan Details]: conan.md
+[Spack Details]: spack.md
 
 ### Internal dependencies
 These are distributed as source. Hence one must clone or download the
